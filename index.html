@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+    }
+    .login-box {
+      width: 360px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin: 100px auto;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      border: none;
+      background-color: #f2f2f2;
+      font-size: 16px;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      border: none;
+      background-color: #f2f2f2;
+      font-size: 16px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h1>Login</h1>
+    <form>
+      <label>
+        Role:
+        <select name="role">
+          <option value="kasir">Kasir</option>
+          <option value="pelanggan">Pelanggan</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        Username:
+        <input type="text" name="username" />
+      </label>
+      <br>
+      <label>
+        Password:
+        <input type="password" name="password" />
+      </label>
+      <br>
+      <button onclick="navbar">Go to Example</button>
+
+    </form>
+  </div>
+</body>
+</html>
